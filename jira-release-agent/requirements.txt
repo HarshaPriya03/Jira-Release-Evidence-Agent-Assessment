@@ -1,0 +1,7 @@
+# Runtime (pinned)
+google-genai==3.3.0
+anthropic==2.8.0
+requests==2.34.2
+python-dotenv==1.2.4
+# Tests
+pytest==9.2.0

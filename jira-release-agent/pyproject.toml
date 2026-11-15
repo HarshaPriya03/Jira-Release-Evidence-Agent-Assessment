@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jira-release-agent"
+version = "1.0.0"
+description = "Tool-using AI agent that assesses release readiness from evidence recorded in Jira"
+requires-python = ">=3.10"
+dependencies = ["google-genai==3.3.0", "anthropic==2.8.0", "requests==2.34.2", "python-dotenv==1.2.4"]
+
+[project.scripts]
+jra = "jra.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

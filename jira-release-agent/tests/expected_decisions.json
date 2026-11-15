@@ -1,0 +1,148 @@
+{
+  "_note": "Reference answer key derived by reading the manifest rules against data/dataset.json (prepared with AI assistance). Used only by `jra compare` and tests; the agent never sees it.",
+  "overall": "BLOCKED",
+  "decisions": {
+    "REQ-01": "PASS",
+    "REQ-02": "FAIL",
+    "REQ-03": "INSUFFICIENT_EVIDENCE",
+    "REQ-04": "PASS",
+    "REQ-05": "FAIL",
+    "REQ-06": "INSUFFICIENT_EVIDENCE",
+    "REQ-07": "PASS",
+    "REQ-08": "FAIL",
+    "REQ-09": "INSUFFICIENT_EVIDENCE",
+    "REQ-10": "PASS",
+    "REQ-11": "INSUFFICIENT_EVIDENCE",
+    "REQ-12": "FAIL"
+  },
+  "checks": {
+    "REQ-01": {
+      "primary_any": [
+        "REC-2081"
+      ],
+      "not_primary": [
+        "REC-2299"
+      ],
+      "explain_any": [
+        "146",
+        "REG-804"
+      ]
+    },
+    "REQ-02": {
+      "primary_any": [
+        "REC-1001"
+      ],
+      "not_primary": [
+        "REC-5825"
+      ],
+      "explain_any": [
+        "ISO-DEF-12",
+        "BETA",
+        "ISO-318"
+      ]
+    },
+    "REQ-03": {
+      "not_primary": [
+        "REC-1600"
+      ],
+      "explain_any": [
+        "p6",
+        "prompt"
+      ]
+    },
+    "REQ-04": {
+      "primary_any": [
+        "REC-6024"
+      ],
+      "not_primary": [
+        "REC-1028"
+      ],
+      "explain_any": [
+        "1.40",
+        "PERF-827"
+      ]
+    },
+    "REQ-05": {
+      "primary_any": [
+        "REC-5716"
+      ],
+      "not_primary": [
+        "REC-7454"
+      ],
+      "explain_any": [
+        "0.018",
+        "COST-881"
+      ]
+    },
+    "REQ-06": {
+      "not_primary": [
+        "REC-8074"
+      ],
+      "explain_any": [
+        "staging",
+        "Security Owner",
+        "Asha"
+      ]
+    },
+    "REQ-07": {
+      "primary_any": [
+        "REC-9745"
+      ],
+      "not_primary": [
+        "REC-6499"
+      ],
+      "explain_any": [
+        "REDACT-901",
+        "28 of 28"
+      ]
+    },
+    "REQ-08": {
+      "primary_any": [
+        "REC-9635"
+      ],
+      "explain_any": [
+        "HND-DEF-4",
+        "queue",
+        "HND-77"
+      ]
+    },
+    "REQ-09": {
+      "explain_any": [
+        "RB-401",
+        "RB-402"
+      ]
+    },
+    "REQ-10": {
+      "primary_any": [
+        "REC-9611"
+      ],
+      "explain_any": [
+        "PARSE-622",
+        "supersede"
+      ]
+    },
+    "REQ-11": {
+      "not_primary": [
+        "REC-8801",
+        "REC-8515"
+      ],
+      "explain_any": [
+        "R2.3",
+        "developer",
+        "Developer"
+      ]
+    },
+    "REQ-12": {
+      "primary_any": [
+        "REC-5957"
+      ],
+      "explain_any": [
+        "STREAM-50",
+        "duplicate"
+      ]
+    }
+  },
+  "integrity_flag_expected": [
+    "REC-5716"
+  ]
+}
